@@ -1,0 +1,232 @@
+.mach_story_picarea {
+    .container {
+        height: 2300px;
+        @media (max-width: 992px) {
+            height: 4400px;
+        }
+        .basemap{
+            position: relative;
+            img{
+                width: 1380px;
+                position: absolute;
+                top: 38px;
+                left: 0;
+                @media (max-width: 992px) {
+                    width: 725px;
+                    z-index: -1;
+                }
+                @media (max-width: 768px) {
+                    width: 575px;
+                }
+                @media (max-width: 576px) {
+                    display: none;
+                }
+            }
+        }
+        .story_title {
+            position: relative;
+            height: 400px;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+            @media (max-width: 992px) {
+                position: unset;
+                height: 240px;
+            }
+            img {
+                position: absolute;
+                top: -100px;
+                left: 30px;
+                @media (max-width: 992px) {
+                    position: unset;
+                    width: 160px;
+                    height: 180px;
+                }
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        // 第1排圖
+        .story_part1 {
+            position: relative;
+            .picture01 {
+                position: absolute;
+                top: -150px;
+                left: 40px;
+                transform: rotate(-3deg);
+                // z-index: -1;
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+            .picture02 {
+                position: absolute;
+                top: -80px;
+                right: 0px;
+                transform: rotate(3deg);
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+        }
+        // 第2排圖
+        .story_part2 {
+            position: relative;
+            .picture03 {
+                position: absolute;
+                top: 300px;
+                left: 0px;
+                transform: rotate(6deg);
+                // z-index: -1;
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+            .picture04 {
+                position: absolute;
+                top: 320px;
+                right: 40px;
+                transform: rotate(-5deg);
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+        }
+        // 第3排圖
+        .story_part3 {
+            position: relative;
+            .picture04 {
+                position: absolute;
+                top: 700px;
+                left: -20px;
+                transform: rotate(-3deg);
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+            .picture05 {
+                position: absolute;
+                top: 700px;
+                right: 40px;
+                transform: rotate(6deg);
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+        }
+        // 第4排圖
+        .story_part4 {
+            position: relative;
+            .picture05 {
+                position: absolute;
+                top: 1170px;
+                left: 0px;
+                transform: rotate(5deg);
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+            .picture06 {
+                position: absolute;
+                top: 1120px;
+                right: 60px;
+                transform: rotate(-5deg);
+                @media (max-width: 992px) {
+                    position: unset;
+                }
+                img {
+                    width: 100%;
+                    height: 374px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+// 按鈕區塊
+.btn-group {
+    .btngroup {
+        &--btn {
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            text-transform: uppercase;
+            background: #fff;
+            border: 2px solid #ffffff;
+            margin: 0 -1px -1px;
+            display: inline-block;
+            padding: 0.5em 1.25em;
+            outline: 0;
+            @media (max-width: 576px) {
+                font-size: 14px;
+                letter-spacing: unset;
+            }
+
+            &:first-child {
+                border-left-width: 2px;
+                border-radius: 2em 0 0 2em;
+            }
+
+            &:last-child {
+                border-radius: 0 2em 2em 0;
+            }
+
+            &:link {
+                color: #bdc3c7;
+            }
+            &:visted {
+                color: #bdc3c7;
+            }
+
+            &:hover {
+                background: #d56246;
+                color: #fff;
+            }
+
+            &:active {
+                background: #fff;
+                color: #34495e;
+            }
+        }
+    }
+}

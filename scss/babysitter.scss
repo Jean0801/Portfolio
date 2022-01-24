@@ -1,0 +1,82 @@
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.babysitter {
+    ul {
+        @media (max-width: 992px) {
+            justify-content: center !important;
+        }
+        @media (max-width: 768px) {
+            font-size: 16px !important;
+        }
+        @media (max-width: 576px) {
+            font-size: 14px !important;
+        }
+    }
+}
+
+.babysitter_content {
+    .row {
+        a {
+            text-decoration: none;
+        }
+        img {
+            box-shadow: 3px 3px 12px #34495e;
+            @media (max-width: 768px) {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+// 按鈕區塊
+.btn-group {
+    .btngroup {
+        &--btn {
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            text-transform: uppercase;
+            background: #fff;
+            border: 2px solid #ffffff;
+            margin: 0 -1px -1px;
+            display: inline-block;
+            padding: 0.5em 1.25em;
+            outline: 0;
+
+            &:first-child {
+                border-left-width: 2px;
+                border-radius: 2em 0 0 2em;
+            }
+
+            &:last-child {
+                border-radius: 0 2em 2em 0;
+            }
+
+            &:link {
+                color: #bdc3c7;
+            }
+            &:visted {
+                color: #bdc3c7;
+            }
+
+            &:hover {
+                background: #d56246;
+                color: #fff;
+            }
+
+            &:active {
+                background: #fff;
+                color: #34495e;
+            }
+        }
+    }
+}

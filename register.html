@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊</title>
+    <!-- bootstrap Core CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        @media (max-width: 1400px) {
+            .login_img{
+                width: 440px;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .login_img{
+                width: 390px;
+            }
+            .label-form{
+                font-size: 16px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="login">
+            <div class="container">
+                <!-- <img src="./team-img/user/login-dog01.png" alt=""> -->
+                <div class="card border-0">
+                    <div class="row">
+                        <div class="col-md-4" style="background-color: #647D5C;">
+                            <div class="login_img">
+                                <img src="./team-img/user/login-cat.png" style="width: 100%;" alt="...">
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 p-5" style="background-color: #647D5C;border-radius: 0 10px 10px 0;">
+                            <div class="pic d-flex justify-content-end">
+                                <img src="./team-img/LOGO/LOGO-8.png" style="width: 80px;" alt="">
+                            </div>
+
+                            <div class="card-body" style="background-color: #647D5C;">
+                                <h1 class="card-title">註冊</h1>
+                                <div class="row mb-3">
+                                    <div class="col-2 d-flex justify-content-end align-items-center">
+                                        <label for="userID" class="label-form  fs-4 fw-bold ">帳號名稱</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="ID" name="userID" id="userID" class="form-control email_input border-bottom border-2">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2 d-flex justify-content-end align-items-center">
+                                        <label for="userEmail" class="label-form fs-4 fw-bold">電子郵件</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="email" name="userEmail" id="userEmail" class="form-control email_input border-bottom border-2">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-2 d-flex justify-content-end align-items-center">
+                                        <label for="password" class="label-form fs-4 fw-bold">密碼</label>
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="password" name="password" id="password" class="form-control email_input border-bottom border-2">
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-12 col-lg-3 p-0">
+                                        <a href="" class="text-decoration-none fs-6 fw-bold" >忘記密碼或帳號</a>
+                                        <a href="" class="text-decoration-none fs-6 fw-bold" >還沒註冊</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-dark w-25 login_btn fs-5">註冊</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

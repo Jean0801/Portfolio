@@ -1,0 +1,52 @@
+.my-card-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fas {
+  color: #d56246;
+}
+
+.btn-group .btngroup--btn {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #fff;
+  border: 2px solid #ffffff;
+  margin: 0 -1px -1px;
+  display: inline-block;
+  padding: 0.5em 1.25em;
+  outline: 0;
+}
+
+.btn-group .btngroup--btn:first-child {
+  border-left-width: 2px;
+  border-radius: 2em 0 0 2em;
+}
+
+.btn-group .btngroup--btn:last-child {
+  border-radius: 0 2em 2em 0;
+}
+
+.btn-group .btngroup--btn:link {
+  color: #bdc3c7;
+}
+
+.btn-group .btngroup--btn:visted {
+  color: #bdc3c7;
+}
+
+.btn-group .btngroup--btn:hover {
+  background: #d56246;
+  color: #fff;
+}
+
+.btn-group .btngroup--btn:active {
+  background: #fff;
+  color: #34495e;
+}
+/*# sourceMappingURL=law_animal_articles.css.map */

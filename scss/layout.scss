@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3ede0;
+    overflow-x: hidden;
+    .go-top {
+        text-decoration: none;
+        display: block;
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+    }
+    .go-top:hover {
+        transform: scale(1.3);
+    }
+}
+
+// navbar
+nav {
+    .nav-item{
+        .line_dropdown {
+            padding: 5px;
+            background-color: #f3ede0;
+            display: flex;
+            position: absolute;
+            top: 17px;
+            right: -164%;
+            // transition: 0.3s;
+            @media (max-width: 992px) {
+                width: auto;
+                padding: unset;
+                display: unset;
+                position: unset;
+            }
+        }
+    }
+}
+
+// footer區
+.footdown {
+    width: 100%;
+    height: 520px;
+    background-color: #647d5c;
+
+    .container {
+        height: 100%;
+        position: relative;
+        .pic {
+            img {
+                position: absolute;
+                top: -67px;
+                left: calc(50% - 215px);
+                z-index: -1;
+            }
+        }
+        .adove {
+            width: 100%;
+            height: calc(100% - 150px);
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .footer-line {
+            height: 3px;
+            color: #fff;
+        }
+        .footer-below {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            letter-spacing: 5px;
+            color: #fff;
+            padding: 15px;
+            .below {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a {
+                    i {
+                        font-size: 33px;
+                        letter-spacing: 20px;
+                        color: #fff;
+                        &:hover {
+                            transform: scale(1.2);
+                            transition: 0.3s;
+                            color: #d56246;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

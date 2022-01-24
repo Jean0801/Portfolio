@@ -1,0 +1,158 @@
+.about_us h1 {
+  color: #85550e;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.about_us_content {
+  margin-bottom: 80px;
+}
+
+.about_us_content .container {
+  padding: 60px;
+}
+
+.about_us_content .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_us_content .container .row p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about_us_content .container .row .content_middle {
+  margin: 90px 0 150px 0;
+}
+
+.about_us_content .container .row .content_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.about_us_content .container .row .content_bottom .list h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.about_us_content .container .row .content_bottom .list ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.about_us_content .container .row .content_bottom .list ul li {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+.about_us_content .container .row .content_bottom img {
+  position: absolute;
+  top: -60px;
+  right: 155px;
+}
+
+@media (max-width: 992px) {
+  .about_us_content .container .row .content_bottom img {
+    display: none;
+  }
+}
+
+.liason_us {
+  margin-bottom: 250px;
+}
+
+.liason_us .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 90px;
+}
+
+.liason_us .container .liason_content {
+  background-color: #D7C8A2;
+  padding: 50px;
+}
+
+.liason_us .container .liason_content .liason_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.liason_us .container .liason_content .liason_top h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #d56246;
+  border-bottom: 3px solid #d56246;
+  padding-bottom: 5px;
+  margin-bottom: 80px;
+}
+
+.liason_us .container .liason_content .liason_middle p {
+  color: #647D5C;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+
+.liason_us .container .liason_content .liason_middle hr {
+  color: #fff;
+  height: 2px;
+  opacity: unset;
+  margin: 48px 0;
+}
+
+.liason_us .container .liason_content .liason_bottom {
+  margin-top: 80px;
+}
+
+.liason_us .container .liason_content .liason_bottom p {
+  color: #647D5C;
+  font-size: 22px;
+  font-weight: 600;
+  margin: unset;
+}
+
+.liason_us .container .liason_content .liason_bottom hr {
+  color: #fff;
+  height: 1px;
+  opacity: unset;
+  margin: 0  0 38px 0;
+}
+
+.liason_us .container .liason_content .btn {
+  width: 150px;
+  border-radius: unset;
+}
+
+.liason_us .container .liason_content .btn input {
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #d56246;
+  color: #fff;
+}
+/*# sourceMappingURL=about_us.css.map */

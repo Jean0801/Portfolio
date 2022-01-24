@@ -1,0 +1,184 @@
+.law_animal_content {
+  margin-bottom: 100px;
+}
+
+.law_animal_content .row {
+  width: 80%;
+}
+
+.law_animal_content .row a {
+  text-decoration: none;
+}
+
+.law_animal_content .row a h2 {
+  color: #d56246;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.law_animal_content .row a h2:hover {
+  color: saddlebrown;
+  text-shadow: 0 0 6px #85550E;
+}
+
+.law_animal_content .row p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.help_animal {
+  margin-bottom: 80px;
+}
+
+.help_animal .row {
+  width: 80%;
+}
+
+.help_animal .row h2 {
+  color: #85550e;
+  font-size: 70px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.help_animal .row h3 {
+  color: #d56246;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.help_animal .row .card-body p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.help_animal .row .card-body a {
+  float: right;
+  background-color: #d56246;
+  color: #fff;
+}
+
+.help_animal .row .card-body .reference {
+  clear: right;
+  float: right;
+  padding: 70px 0px;
+}
+
+.help_animal .row .not_rearing h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.help_animal .row .not_rearing ul {
+  list-style: none;
+  padding: 0 18px;
+}
+
+.help_animal .row .not_rearing ul li {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.help_animal .row .not_rearing_dog h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.help_animal .row .not_rearing_dog p {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 8px;
+}
+
+.related {
+  margin-bottom: 80px;
+}
+
+.related .row {
+  width: 80%;
+}
+
+.related .row .related_www h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.related .row .related_www ul {
+  list-style: none;
+  padding: 0;
+}
+
+.related .row .related_www ul a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  line-height: 30px;
+}
+
+.related .row .related_www ul a:hover {
+  color: #4594f0;
+}
+
+.related .row .consult h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.related .row .consult a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.related .row .consult a:hover {
+  color: #4594f0;
+}
+
+.btn-group .btngroup--btn {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #fff;
+  border: 2px solid #ffffff;
+  margin: 0 -1px -1px;
+  display: inline-block;
+  padding: 0.5em 1.25em;
+  outline: 0;
+}
+
+.btn-group .btngroup--btn:first-child {
+  border-left-width: 2px;
+  border-radius: 2em 0 0 2em;
+}
+
+.btn-group .btngroup--btn:last-child {
+  border-radius: 0 2em 2em 0;
+}
+
+.btn-group .btngroup--btn:link {
+  color: #bdc3c7;
+}
+
+.btn-group .btngroup--btn:visted {
+  color: #bdc3c7;
+}
+
+.btn-group .btngroup--btn:hover {
+  background: #d56246;
+  color: #fff;
+}
+
+.btn-group .btngroup--btn:active {
+  background: #fff;
+  color: #34495e;
+}
+/*# sourceMappingURL=law_animal.css.map */
