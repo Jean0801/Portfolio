@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+h1,
+h2,
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .browse {
+        width: 165px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .icon {
+            color: purple;
+        }
+    }
+    .search {
+        width: 390px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .search-form {
+            width: 355px;
+            height: 36px;
+            background-color: rgb(229, 229, 229);
+            border: 0px;
+            border-radius: 5px 0 0 5px;
+            outline: 0px;
+            margin-right: 1px;
+            @media (max-width: 768px) {
+                width: 150px;
+            }
+        }
+    }
+    .login {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .btn-login {
+            width: 46px;
+            height: 31px;
+            background-color: rgb(226, 226, 226);
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn-sign_in {
+            width: 46px;
+            height: 31px;
+            color: white;
+            background-color: rgb(182, 65, 250);
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+main {
+    width: 100%;
+    height: calc(auto - 50px);    
+    display: flex;
+    aside {
+        width: 50px;
+        min-height: 100vh;
+        background-color: rgb(239, 239, 239);
+        padding-top: 10px;
+        .cycle {
+            width: 30px;
+            height: 30px;
+            background-color: rgb(233, 165, 165);
+            border-radius: 15px;
+            margin: 0px auto 10px;
+        }
+    }
+    .container {
+        width: calc(100% - 50px);
+        height: 100%;
+        padding: 30px;
+        .title {
+            width: 100%;
+            height: auto;
+            margin-bottom: 55px;
+            h1 {
+                width: 100%;
+                font-size: 54px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            h3 {
+                width: 100%;
+                color: rgb(104, 103, 103);
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+        .live {
+            width: 100%;
+            height: auto;
+            margin-bottom: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+            .games {
+                width: 293px;
+                height: 70px;
+                background-color: rgb(230, 230, 230);
+                border-radius: 5px;
+                padding: 10px;
+                margin: 5px 0;
+                display: flex;
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+                .img {
+                    width: 40px;
+                    height: 50px;
+                    background-color: rgb(247, 199, 247);
+                    margin-right: 10px;
+                    border-radius: 3px;
+                }
+                .text {
+                    margin: auto 0px;
+                    p {
+                        margin: 0px;
+                    }
+                    .game-name {
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                    .game-people {
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: grey;
+                    }
+                }
+                .btn-live {
+                    width: 40px;
+                    height: 20px;
+                    color: white;
+                    background-color: red;
+                    border-radius: 5px;
+                    font-weight: 550;
+                    font-size: 10px;
+                    text-align: center;
+                    line-height: 20px;
+                    margin-left: auto;
+                }
+            }
+            .games-free{
+                width: 293px;
+                height: 10px; 
+                // border: 1px dashed black;
+                display: none;
+                @media (max-width: 1900px) {
+                    display: block;
+                }
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+        .compete {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            h2 {
+                font-size: 36px;
+                font-weight: bold;
+            }
+            h3 {
+                font-size: 20px;
+                color: rgb(95, 94, 94);
+            }
+        }
+        .cards {
+            width: 100%;
+            height: auto;
+            display: flex;
+            @media (max-width: 1140px) {                
+                display: unset;
+            }
+            .card-big {
+                width: 590px;
+                background-color: white;
+                margin-right: 20px;
+                @media (max-width: 1140px) {                
+                    width: 100%;
+                    margin: 0px;
+                    margin-bottom: 35px;
+                }
+                .video {
+                    width: 100%;
+                    height: 330px;
+                    background-color: rgb(255, 240, 214);
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .btn-live {
+                        width: 40px;
+                        height: 20px;
+                        color: white;
+                        background-color: red;
+                        border-radius: 5px;
+                        font-weight: 550;
+                        font-size: 10px;
+                        text-align: center;
+                        line-height: 20px;
+                    }
+                    .btn-people {
+                        width: 125px;
+                        height: 20px;
+                        color: white;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        font-size: 15px;
+                        padding: 0 5px;
+                        display: inline-block;
+                    }
+                }
+                .information {
+                    width: 100%;
+                    height: auto;
+                    .name {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 10px;
+                        display: flex;
+                        .img-personal {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 5px;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                border-radius: 20px;
+                            }
+                        }
+                        .name-user {
+                            color: rgb(182, 65, 250);
+                            font-weight: bold;
+                        }
+                    }
+                    .card-title {
+                        width: 100%;
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+                    .language {
+                        width: 100%;
+                        color: gray;
+                        font-size: 12px;                        
+                    }
+                }
+            }
+            .card-smalls{
+                width: calc(100% - 610px);
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;                
+                @media (max-width: 1140px) {
+                    width: 100%;
+                }
+                .card-small-item{
+                    width: 285px;                    
+                    margin-bottom: 20px;
+                    @media (max-width: 768px) {
+                        width: 100%;
+                    }
+                    .video {
+                        width: 100%;
+                        height: 160px;
+                        background-color: rgb(255, 240, 214);
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .btn-live {
+                            width: 40px;
+                            height: 20px;
+                            color: white;
+                            background-color: red;
+                            border-radius: 5px;
+                            font-weight: 550;
+                            font-size: 10px;
+                            text-align: center;
+                            line-height: 20px;
+                        }
+                        .btn-people {
+                            width: 125px;
+                            height: 20px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            font-size: 15px;
+                            padding: 0 5px;
+                            display: inline-block;
+                        }
+                    }
+                    .information {
+                        width: 100%;
+                        height: auto;
+                        .name {
+                            width: 100%;
+                            height: auto;
+                            margin-bottom: 10px;
+                            display: flex;
+                            .img-personal {
+                                width: 20px;
+                                height: 20px;
+                                margin-right: 5px;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    border-radius: 20px;
+                                }
+                            }
+                            .name-user {
+                                color: rgb(182, 65, 250);
+                                font-weight: bold;
+                            }
+                        }
+                        .card-title {
+                            width: 100%;
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-bottom: 5px;
+                        }
+                        .language {
+                            width: 100%;
+                            color: gray;
+                            font-size: 12px;                        
+                        }
+                    }
+                }
+                .card-small-item-free{
+                    width: 285px;
+                    height: 10px;
+                    // border: 1px dashed black;
+                    display: none;
+                    @media (max-width: 1900px) {
+                        display: block;
+                    }
+                    @media (max-width: 768px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

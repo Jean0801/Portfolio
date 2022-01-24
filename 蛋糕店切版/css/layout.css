@@ -1,0 +1,75 @@
+.nav-item {
+  letter-spacing: 3px;
+}
+
+@media (max-width: 1200px) {
+  .nav-item {
+    letter-spacing: unset;
+  }
+}
+
+i {
+  font-size: 22px;
+}
+
+.fab {
+  font-size: 22px;
+}
+
+footer {
+  background-color: #faf4f4;
+}
+
+footer .footer_media {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer .footer_media a {
+  text-decoration: none;
+}
+
+footer .footer_media .icon {
+  padding: 10px;
+}
+
+footer .footer_media .fb {
+  color: #3b5998;
+}
+
+footer .footer_media .fb:hover {
+  color: darkblue;
+}
+
+footer .footer_media .ig {
+  color: #833ab4;
+}
+
+footer .footer_media .ig:hover {
+  color: #3d024e;
+}
+
+@media (max-width: 992px) {
+  footer .footer_store .store_line {
+    display: none;
+  }
+  footer .footer_store h5 {
+    background-color: gray;
+    color: #f2b964;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+footer .footer_map {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  footer .footer_map {
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=layout.css.map */

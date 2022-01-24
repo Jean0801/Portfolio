@@ -1,0 +1,460 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .browse {
+  width: 165px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .browse .icon {
+  color: purple;
+}
+
+nav .search {
+  width: 390px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .search .search-form {
+  width: 355px;
+  height: 36px;
+  background-color: #e5e5e5;
+  border: 0px;
+  border-radius: 5px 0 0 5px;
+  outline: 0px;
+  margin-right: 1px;
+}
+
+nav .login {
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .login .btn-login {
+  width: 46px;
+  height: 31px;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .login .btn-sign_in {
+  width: 46px;
+  height: 31px;
+  color: white;
+  background-color: #b641fa;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  width: 100%;
+  height: calc(auto - 50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main aside {
+  width: 50px;
+  min-height: 100vh;
+  background-color: #efefef;
+  padding-top: 10px;
+}
+
+main aside .cycle {
+  width: 30px;
+  height: 30px;
+  background-color: #e9a5a5;
+  border-radius: 15px;
+  margin: 0px auto 10px;
+}
+
+main .container {
+  width: calc(100% - 50px);
+  height: 100%;
+  padding: 30px;
+}
+
+main .container .title {
+  width: 100%;
+  height: auto;
+}
+
+main .container .title h1 {
+  width: 100%;
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main .container .title h3 {
+  width: 100%;
+  color: #686767;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main .container .content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .container .content .content-card {
+  width: 293px;
+  height: 70px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .content .content-card .img {
+  width: 40px;
+  height: 50px;
+  background-color: mistyrose;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+main .container .content .content-card .text {
+  margin: auto 0px;
+}
+
+main .container .content .content-card .text p {
+  margin: 0px;
+}
+
+main .container .content .content-card .text .title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+main .container .content .content-card .text .people {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}
+
+main .container .content .content-card .live-icon {
+  width: 40px;
+  height: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  margin-left: auto;
+}
+
+main .container .compete {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+main .container .compete h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+main .container .compete h3 {
+  font-size: 20px;
+  color: #5f5e5e;
+}
+
+main .container .cards {
+  width: 100%;
+  height: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .cards .card-big {
+  width: 590px;
+  background-color: white;
+  margin-right: 20px;
+}
+
+main .container .cards .card-big .video {
+  width: 100%;
+  height: 330px;
+  background-color: #fff0d6;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .cards .card-big .video .live-icon {
+  width: 40px;
+  height: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+
+main .container .cards .card-big .video .people {
+  width: 125px;
+  height: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+main .container .cards .card-big .information {
+  width: 100%;
+  height: auto;
+}
+
+main .container .cards .card-big .information .name {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .cards .card-big .information .name .img-personal {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+main .container .cards .card-big .information .name .img-personal img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+main .container .cards .card-big .information .name .name-user {
+  color: #b641fa;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main .container .cards .card-big .information .card-title {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main .container .cards .card-big .information .language {
+  width: 100%;
+  color: gray;
+  font-size: 12px;
+}
+
+main .container .cards .card-smalls {
+  width: calc(100% - 610px);
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .container .cards .card-smalls .card-small-item {
+  width: 285px;
+  margin-bottom: 20px;
+}
+
+main .container .cards .card-smalls .card-small-item .video {
+  width: 100%;
+  height: 160px;
+  background-color: #fff0d6;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .cards .card-smalls .card-small-item .video .live-icon {
+  width: 40px;
+  height: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+
+main .container .cards .card-smalls .card-small-item .video .people {
+  width: 125px;
+  height: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+main .container .cards .card-smalls .card-small-item .information {
+  width: 100%;
+  height: auto;
+}
+
+main .container .cards .card-smalls .card-small-item .information .name {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .cards .card-smalls .card-small-item .information .name .img-personal {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+main .container .cards .card-smalls .card-small-item .information .name .img-personal img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+main .container .cards .card-smalls .card-small-item .information .name .name-user {
+  color: #b641fa;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main .container .cards .card-smalls .card-small-item .information .card-title {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main .container .cards .card-smalls .card-small-item .information .language {
+  width: 100%;
+  color: gray;
+  font-size: 12px;
+}
+/*# sourceMappingURL=twitch.css.map */

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>news</title>
+	<!-- bootstrap Core CSS CDN -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- fontawesome Core CSS CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- layout CSS -->
+	<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/news-create.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #faf4f4;">
+		<div class="container">
+			<a class="navbar-brand" href="./AtelierBauloiscake.html">
+				<img src="./AB-img/storelogo.jpg" width="70" height="65" class="rounded-circle" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="./news.html">最新消息</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">全部商品</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">季節商品</a>
+					</li>
+					<div class="nav-item">
+						<a class="nav-link" href="#">熱銷排行</a>
+					</div>
+					<div class="nav-item">
+						<a class="nav-link" href="#">聯絡我們</a>
+					</div>
+					<div class="nav-item">
+						<a class="nav-link" href="#">關於我們</a>
+					</div>
+					<div class="nav-item mr-5">
+						<a class="nav-link" href="#">客戶好評</a>
+					</div>
+					<div class="nav-item mr-4 ml-5">
+						<a class="nav-link" href="">
+							<i class="fas fa-search"></i>
+						</a>
+					</div>
+					<div class="nav-item mr-4">
+						<a class="nav-link" href="./checkout1.html">
+							<i class="fas fa-shopping-cart"></i>
+						</a>
+					</div>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-expanded="false">
+							<i class="fas fa-user"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="./login.html">Login</a>
+						</div>
+
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <main class="container mt-3">
+		<form action="">
+			<div class="row">
+				<label for="title">文章標題：</label>
+				<input type="text" name="title" id="title">
+			</div>
+			<div class="row">
+				<label for="auther">文章作者：</label>
+				<input type="text" name="auther" id="auther">
+			</div>
+			<div class="row custom">
+				<label for="content">文章內文：</label>
+				<textarea name="content" id="content" cols="30" rows="8"></textarea>
+			</div>
+
+			<div class="row btn">
+				<a href="/blog" class="btn btn-danger">取消</a>
+				<button type="submit" class="btn btn-primary">新增文章</button>
+			</div>
+		</form>
+	</main>
+
+	<footer>
+		<section class="py-5">
+			<div class="container" style="background-color: #faf4f4;">
+				<div class="row">
+					<div class="col ml-5">
+						<img class="img" src="./AB-img/storelogo.jpg" width="100" height="100" alt="" >
+						<h3>Aatelier Baulois</h3>
+						<h4>法國人的甜點店</h4>
+					</div>
+					<div class="col mr-5 mt-2">
+						<div class="footer-title">
+							<h5>北屯店</h5>
+							<span >
+								實體店址：台中市北屯區崇德一路46號<br>
+								聯絡電話：<a href="tel://(04)22436066">04-22436066</a><br>
+								營業時間：13:00~20:00(週三公休)<br>
+							</span>
+							<div class="shop2 mb-2">
+								<hr>
+							</div>
+							<h5>南區店</h5>
+							<span>
+								實體店址：台中市南區南陽街61號<br>
+								聯絡電話：<a href="tel://(04)22605156">04-22605156</a><br>
+								營業時間：13:00~20:00(週三公休)
+							</span>
+						</div>
+					</div>
+					<div class="col">
+						<ul class="sci">
+							<li><a href="https://www.facebook.com/atelierbaulois">
+								<i class="fab fa-facebook-f"></i></li>
+							</a>
+							<li><i class="fab fa-instagram"></i></li>
+						</ul>
+						<div class="footwe-title-right">
+							<iframe allowfullscreen="" aria-hidden="false" frameborder="0" scrolling="no"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.9521792357!2d120.65323511498875!3d24.13831748439956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693da53912def5%3A0x96ec3fff79ef1ec9!2zNDAz5Y-w5Lit5biC6KW_5Y2A5aSn5b-g5Y2X6KGXODblt7cxMOiZnw!5e0!3m2!1szh-TW!2stw!4v1588579109565!5m2!1szh-TW!2stw"
+								width="100%"></iframe>
+						</div>
+					</div>
+				</div>
+			</div><hr>
+			<div class="container">
+				<p class="last" >© 隱私權條款</p>
+
+			</div>
+
+		</section>
+	</footer>
+
+	<!-- jquery Core JS CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<!-- popper Core JS CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<!-- bootstrap Core JS CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

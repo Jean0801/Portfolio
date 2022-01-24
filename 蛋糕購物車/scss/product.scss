@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    .clicks{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .content{
+        max-width: 1140px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+        .card{
+            width: 25%;
+            height: 400px;
+            img{
+                width: 100%;
+                height: 55%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    }
+}

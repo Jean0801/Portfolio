@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/* navbar style */
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  font-family: sans-serif;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar .max-width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .max-width ul {
+  margin: 0px;
+}
+
+.navbar .max-width .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .max-width .menu li a {
+  color: #f3f1f1;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar .max-width .menu li a:hover {
+  color: #fc7435;
+}
+
+.navbar .max-width .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .max-width .nav-item a i {
+  font-size: 20px;
+  color: #f7eeee;
+}
+
+.navbar .max-width .nav-item a i:hover {
+  color: #ec1c49;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../AB-img/bgimg02.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  color: #faf6f5;
+  min-height: 500px;
+  font-family: sans-serif;
+}
+
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1 {
+  font-size: 27px;
+}
+
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 500;
+}
+/*# sourceMappingURL=newindex.css.map */

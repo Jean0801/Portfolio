@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+.pic {
+    // display: flex;
+    // align-items: center;
+    span {
+        font-size: 24px;
+    }
+}
+.article{
+    p{
+        font-size: 18px;
+        
+    }
+}
+.article-direction {
+    .next-link {
+        font-size: 18px;
+        color: red;
+
+    }
+}

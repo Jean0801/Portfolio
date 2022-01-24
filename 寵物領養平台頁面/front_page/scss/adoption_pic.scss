@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(35, 35, 36);
+    &:hover {
+        color: rgb(0, 153, 255);
+    }
+}
+
+.banner {
+    h2 {
+        color: #a56c17;
+        font-weight: 600;
+        line-height: 50px;
+        margin-left: 10px;
+    }
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(61, 60, 60);
+    border: unset;
+    &:hover{
+        transform: scale(1.1);
+        transform: 0.3s;
+        opacity: 0.8;
+    }
+    .pic {
+        img {
+            height: 260px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+    }
+    p {
+        padding: 0px;
+        margin: 0px;
+        color: rgb(35, 35, 36);
+        display: flex;
+        &:hover {
+            color: rgb(0, 153, 255);
+        }
+        span {
+            margin-left: 120px;
+            i {
+                font-size: 24px;
+                color: crimson;
+            }
+        }
+    }
+}
+
+// 按鈕區塊
+.btn-group {
+    .btngroup {
+        &--btn {
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            text-transform: uppercase;
+            background: #fff;
+            border: 2px solid #ffffff;
+            margin: 0 -1px -1px;
+            display: inline-block;
+            padding: 0.5em 1.25em;
+            outline: 0;
+
+            &:first-child {
+                border-left-width: 2px;
+                border-radius: 2em 0 0 2em;
+            }
+
+            &:last-child {
+                border-radius: 0 2em 2em 0;
+            }
+
+            &:link {
+                color: #bdc3c7;
+            }
+            &:visted {
+                color: #bdc3c7;
+            }
+
+            &:hover {
+                background: #d56246;
+                color: #fff;
+            }
+
+            &:active {
+                background: #fff;
+                color: #34495e;
+            }
+        }
+    }
+}

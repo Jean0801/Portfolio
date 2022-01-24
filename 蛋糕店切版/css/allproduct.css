@@ -1,0 +1,10 @@
+body {
+  background: #f4f4f4;
+}
+
+.banner {
+  background: #a770ef;
+  background: -webkit-gradient(linear, left top, right top, from(#a770ef), color-stop(#cf8bf3), to(#fdb99b));
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+/*# sourceMappingURL=allproduct.css.map */

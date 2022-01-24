@@ -1,0 +1,120 @@
+.about_us {
+    h1 {
+        color: #85550e;
+        font-size: 80px;
+        font-weight: 600;
+    }
+}
+// 關於我們內文
+.about_us_content {
+    margin-bottom: 80px;
+    .container {
+        padding: 60px;
+        .row {
+            display: flex;
+            justify-content: center;
+            p {
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .content_middle {
+                margin: 90px 0 150px 0;
+            }
+            .content_bottom {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                .list {
+                    h3 {
+                        font-size: 26px;
+                        font-weight: 600;
+                    }
+                    ul {
+                        list-style: none;
+                        padding: 0px;
+                        li {
+                            font-size: 24px;
+                            font-weight: 600;
+                            margin: 50px 0;
+                        }
+                    }
+                }
+                img{
+                    position: absolute;
+                    top: -60px;
+                    right: 155px;
+                    @media (max-width: 992px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+// 聯絡我們
+.liason_us {
+    margin-bottom: 250px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 90px;
+        .liason_content {
+            background-color: #D7C8A2;
+            padding: 50px;
+            .liason_top{
+                display: flex;
+                justify-content: center;
+                h3 {
+                    font-size: 32px;
+                    font-weight: 600;
+                    color: #d56246;
+                    border-bottom: 3px solid #d56246;
+                    padding-bottom: 5px;
+                    margin-bottom: 80px;
+                }
+            }
+            .liason_middle{
+                p{
+                    color: #647D5C;
+                    font-size: 24px;
+                    font-weight: 600;
+                    border-bottom: 2px solid #fff;
+                }
+                hr{
+                    color: #fff;
+                    height: 2px;
+                    opacity: unset;
+                    margin: 48px 0;
+                }
+            }
+            .liason_bottom{
+                margin-top: 80px;
+                p{
+                    color: #647D5C;
+                    font-size: 22px;
+                    font-weight: 600;
+                    margin: unset;
+                }
+                hr{
+                    color: #fff;
+                    height: 1px;
+                    opacity: unset;
+                    margin: 0  0 38px 0;
+                }
+            }
+            .btn{
+                width: 150px;
+                border-radius: unset;
+                input{
+                    font-size: 24px;
+                    font-weight: 600;
+                    background-color: #d56246;
+                    color: #fff;
+
+                }
+            }
+        }
+    }
+}

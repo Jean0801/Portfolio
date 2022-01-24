@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/01-weather.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="card" data-tilt>
+            <div class="img">
+                <img src="./img/cloud.svg" alt="">
+            </div>
+            <div class="countyName">城市</div>
+                <div class="wx">天氣概況</div>
+                <div class="temperature">
+                    <div class="max-t">36°C /</div>
+                    <div class="min-t"> 2°C</div>
+                </div>
+                <div class="ci">舒適度</div>
+                <div class="PoP">降雨機率:10%</div>
+        </div> -->
+    </div>
+
+    <script src="./js/weather.js"></script>
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400,
+            glare:  true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+
+</html>
